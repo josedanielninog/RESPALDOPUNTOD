@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f6f6f6;
+  color: #333;
+  position: absolute;
+}
+
+header {
+  width: 75%;
+  padding: 20px 50px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.logoimg {
+  vertical-align: middle;
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav {
+  float: right;
+  display: flex;
+  gap: 20px
+}
+
+nav a {
+
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+  right: 400px;
+}
+
+
+.btn-login {
+  background-color: #0d6efd;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+.container {
+  width: 100%;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.text-box {
+  font-size: 350px;
+  float: left;
+  margin: top 80px;
+  margin-top: 10%;
+}
+
+.text-box h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.text-box p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 20px;
+  width: 40%;
+  margin-top: 10%;
+}
+
+.img-box {
+  float: right;
+  width: 50%;
+  text-align: center;
+
+}
+
+.img-box img {
+  max-width: 70%;
+  height: 20%;
+
+}
